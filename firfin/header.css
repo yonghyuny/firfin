@@ -1,0 +1,34 @@
+header {
+  width: 100vw;
+  background-color: var(--neutrals-white);
+  position: fixed;
+  z-index: 3;
+}
+
+nav {
+  max-width: var(--max-width);
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo > span {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "WavvePADO-Regular";
+  color: var(--font-font-black);
+}
+.site {
+  display: flex;
+  gap: 15px;
+}
+
+.site > li {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--font-font-black);
+}
